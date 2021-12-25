@@ -6544,28 +6544,28 @@
           <var-decl name='release_work' type-id='ef9025d0' visibility='default' filepath='include/linux/bpf-cgroup.h' line='154' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='bpf_prog_array' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1127' column='1' id='c75c7b06'>
+      <class-decl name='bpf_prog_array' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1128' column='1' id='c75c7b06'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/bpf.h' line='1128' column='1'/>
+          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/bpf.h' line='1129' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='items' type-id='3f814540' visibility='default' filepath='include/linux/bpf.h' line='1129' column='1'/>
+          <var-decl name='items' type-id='3f814540' visibility='default' filepath='include/linux/bpf.h' line='1130' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='bpf_prog_array_item' size-in-bits='192' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1119' column='1' id='f67e137c'>
+      <class-decl name='bpf_prog_array_item' size-in-bits='192' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1120' column='1' id='f67e137c'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='prog' type-id='bdcee7ae' visibility='default' filepath='include/linux/bpf.h' line='1120' column='1'/>
+          <var-decl name='prog' type-id='bdcee7ae' visibility='default' filepath='include/linux/bpf.h' line='1121' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='' type-id='3df97e1d' visibility='default' filepath='include/linux/bpf.h' line='1121' column='1'/>
+          <var-decl name='' type-id='3df97e1d' visibility='default' filepath='include/linux/bpf.h' line='1122' column='1'/>
         </data-member>
       </class-decl>
-      <union-decl name='__anonymous_union__25' size-in-bits='128' is-anonymous='yes' visibility='default' filepath='include/linux/bpf.h' line='1121' column='1' id='3df97e1d'>
+      <union-decl name='__anonymous_union__25' size-in-bits='128' is-anonymous='yes' visibility='default' filepath='include/linux/bpf.h' line='1122' column='1' id='3df97e1d'>
         <data-member access='public'>
-          <var-decl name='cgroup_storage' type-id='dcd9fb4c' visibility='default' filepath='include/linux/bpf.h' line='1122' column='1'/>
+          <var-decl name='cgroup_storage' type-id='dcd9fb4c' visibility='default' filepath='include/linux/bpf.h' line='1123' column='1'/>
         </data-member>
         <data-member access='public'>
-          <var-decl name='bpf_cookie' type-id='91ce1af9' visibility='default' filepath='include/linux/bpf.h' line='1123' column='1'/>
+          <var-decl name='bpf_cookie' type-id='91ce1af9' visibility='default' filepath='include/linux/bpf.h' line='1124' column='1'/>
         </data-member>
       </union-decl>
       <class-decl name='bpf_cgroup_storage' size-in-bits='832' is-struct='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='104' column='1' id='15881542'>
@@ -12006,7 +12006,7 @@
         </data-member>
       </class-decl>
       <typedef-decl name='phys_addr_t' type-id='91ce1af9' filepath='include/linux/types.h' line='153' column='1' id='2522883d'/>
-      <class-decl name='bpf_run_ctx' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1153' column='1' id='02cfdfcf'/>
+      <class-decl name='bpf_run_ctx' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1154' column='1' id='02cfdfcf'/>
       <class-decl name='llist_head' size-in-bits='64' is-struct='yes' visibility='default' filepath='include/linux/llist.h' line='54' column='1' id='77df194e'>
         <data-member access='public' layout-offset-in-bits='0'>
           <var-decl name='first' type-id='023b769e' visibility='default' filepath='include/linux/llist.h' line='55' column='1'/>
