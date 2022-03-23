@@ -83,6 +83,7 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_schedule' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xca08a74e'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_schedule_bug' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xeef5e2fe'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_select_fallback_rq' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf67a7d78'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_select_task_rq_dl' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3abc5d81'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_select_task_rq_fair' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x183b0856'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_select_task_rq_rt' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x193c4180'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_selinux_avc_insert' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb0b73df6'/>
@@ -138,6 +139,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_dump_throttled_rt_tasks' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3362dca'/>
       <elf-symbol name='__SCT__tp_func_android_vh_em_cpu_energy' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xdfb9fa0'/>
       <elf-symbol name='__SCT__tp_func_android_vh_em_dev_register_pd' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8aa1e78b'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_enable_thermal_power_throttle' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3e2bebe4'/>
       <elf-symbol name='__SCT__tp_func_android_vh_free_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2f2b4b75'/>
       <elf-symbol name='__SCT__tp_func_android_vh_freq_table_limits' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x14041d8f'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ftrace_dump_buffer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc883b992'/>
@@ -158,6 +160,8 @@
       <elf-symbol name='__SCT__tp_func_android_vh_logbuf' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc144636f'/>
       <elf-symbol name='__SCT__tp_func_android_vh_logbuf_pr_cont' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x99953bfd'/>
       <elf-symbol name='__SCT__tp_func_android_vh_map_util_freq' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2aac02ce'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_modify_thermal_request_freq' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7fa6df5'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_modify_thermal_target_freq' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc8acab99'/>
       <elf-symbol name='__SCT__tp_func_android_vh_mpam_set' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3dfe7109'/>
       <elf-symbol name='__SCT__tp_func_android_vh_mutex_wait_finish' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe678611c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_mutex_wait_start' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7d394885'/>
@@ -168,6 +172,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_printk_hotplug' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbc4c95a7'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ptype_head' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7d21403c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_rproc_recovery' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8ccde2f0'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_rproc_recovery_set' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x954c352d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_rtmutex_wait_finish' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x941ed14a'/>
       <elf-symbol name='__SCT__tp_func_android_vh_rtmutex_wait_start' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe5c1ae6c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_rwsem_read_wait_finish' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcf36b39d'/>
