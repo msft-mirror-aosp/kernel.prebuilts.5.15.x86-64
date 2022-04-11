@@ -38,6 +38,7 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_do_sea' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3c833a30'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_sp_pc_abort' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb22db850'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_undefinstr' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3c8349c8'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_effective_cpu_util' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x78b06dcb'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_enqueue_entity' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xde923040'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_enqueue_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x64e91fb0'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_enqueue_task_fair' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xadc6d355'/>
@@ -201,6 +202,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_sync_txn_recvd' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2a914520'/>
       <elf-symbol name='__SCT__tp_func_android_vh_syscall_prctl_finished' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7cac4626'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sysrq_crash' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4b0d74b8'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_thermal_power_cap' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4a4dcb09'/>
       <elf-symbol name='__SCT__tp_func_android_vh_timer_calc_index' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe73bc2fe'/>
       <elf-symbol name='__SCT__tp_func_android_vh_try_to_freeze_todo' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xedb43047'/>
       <elf-symbol name='__SCT__tp_func_android_vh_try_to_freeze_todo_unfrozen' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd10ea5b1'/>
