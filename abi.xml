@@ -258,6 +258,7 @@
       <elf-symbol name='__SCT__tp_func_dma_fence_emit' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa796679d'/>
       <elf-symbol name='__SCT__tp_func_dma_fence_enable_signal' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb2601486'/>
       <elf-symbol name='__SCT__tp_func_dma_fence_signaled' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x192ea14f'/>
+      <elf-symbol name='__SCT__tp_func_dwc3_ctrl_req' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xea0a8d44'/>
       <elf-symbol name='__SCT__tp_func_dwc3_event' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb3a5f217'/>
       <elf-symbol name='__SCT__tp_func_error_report_end' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x31706316'/>
       <elf-symbol name='__SCT__tp_func_fdb_delete' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x733ec33e'/>
@@ -339,6 +340,8 @@
       <elf-symbol name='__SCT__tp_func_task_newtask' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfe5edc91'/>
       <elf-symbol name='__SCT__tp_func_tcp_bad_csum' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc2fb483f'/>
       <elf-symbol name='__SCT__tp_func_tcp_send_reset' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x79daf4de'/>
+      <elf-symbol name='__SCT__tp_func_usb_gadget_connect' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc99d3cc6'/>
+      <elf-symbol name='__SCT__tp_func_usb_gadget_disconnect' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x684fa778'/>
       <elf-symbol name='__SCT__tp_func_vb2_buf_done' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4ed3fb1b'/>
       <elf-symbol name='__SCT__tp_func_vb2_buf_queue' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2b5551d5'/>
       <elf-symbol name='__SCT__tp_func_vb2_dqbuf' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc7920841'/>
