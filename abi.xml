@@ -233,6 +233,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_send_command' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5db9ee4b'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_send_tm_command' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc542418d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_send_uic_command' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9297ca86'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_ufs_update_sdev' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x24baeaea'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_update_sysfs' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa7c89c9'/>
       <elf-symbol name='__SCT__tp_func_android_vh_update_topology_flags_workfn' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6d41b27c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_usb_new_device_added' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd2aec09'/>
