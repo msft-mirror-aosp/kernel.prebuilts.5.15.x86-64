@@ -69,8 +69,6 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_preempt_disable' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd3dc095'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_preempt_enable' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6d60bf03'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_prepare_prio_fork' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xab088e56'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_psci_cpu_suspend' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x26db2578'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_psci_tos_resident_on' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4a5c8849'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_replace_next_task_fair' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc14b1b1d'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_report_bug' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x430fa998'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_revert_creds' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd592ea3a'/>
@@ -194,6 +192,8 @@
       <elf-symbol name='__SCT__tp_func_android_vh_printk_caller_id' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfcb0c7e7'/>
       <elf-symbol name='__SCT__tp_func_android_vh_printk_ext_header' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5e18077'/>
       <elf-symbol name='__SCT__tp_func_android_vh_printk_hotplug' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbc4c95a7'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_psci_cpu_suspend' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x169f406b'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_psci_tos_resident_on' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x60617a26'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ptype_head' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7d21403c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_regmap_update' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa267108a'/>
       <elf-symbol name='__SCT__tp_func_android_vh_rproc_recovery' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8ccde2f0'/>
