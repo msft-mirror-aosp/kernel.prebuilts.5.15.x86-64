@@ -8,10 +8,6 @@
       <elf-symbol name='__SCT__might_resched' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe2c17b5d'/>
       <elf-symbol name='__SCT__preempt_schedule' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x48d88a2c'/>
       <elf-symbol name='__SCT__preempt_schedule_notrace' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x688e72e1'/>
-      <elf-symbol name='__SCT__tp_func_android_fs_dataread_end' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x98aec175'/>
-      <elf-symbol name='__SCT__tp_func_android_fs_dataread_start' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7ba47bcb'/>
-      <elf-symbol name='__SCT__tp_func_android_fs_datawrite_end' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x66b60986'/>
-      <elf-symbol name='__SCT__tp_func_android_fs_datawrite_start' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5abc5dc0'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_account_irq' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x405c6fae'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_account_irq_end' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x99a76928'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_account_irq_start' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5301e369'/>
