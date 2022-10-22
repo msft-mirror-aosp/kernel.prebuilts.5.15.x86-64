@@ -18,7 +18,6 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_after_dequeue_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x820b2194'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_after_enqueue_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x37eeefcd'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_arm64_serror_panic' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9d02b323'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_attach_entity_load_avg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xde6330fe'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_audio_usb_offload_disconnect' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4d3adf87'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_binder_transaction' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd03b2457'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_build_perf_domains' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9ab4e4dd'/>
@@ -37,12 +36,12 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_dequeue_entity' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa5ffb35a'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_dequeue_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe52d6641'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_dequeue_task_fair' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9f552a98'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_detach_entity_load_avg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x86d46b0'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_die_kernel_fault' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x248da35f'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_mem_abort' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcaacb125'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_ptrauth_fault' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x870eff9c'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_sched_yield' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc2ea6fc3'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_sea' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3c833a30'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_do_serror' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2a1d8648'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_sp_pc_abort' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb22db850'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_undefinstr' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3c8349c8'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_effective_cpu_util' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x78b06dcb'/>
@@ -86,7 +85,6 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_psci_cpu_suspend' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x26db2578'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_psci_tos_resident_on' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4a5c8849'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_refrigerator' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x25c8aa7c'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_remove_entity_load_avg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x82a69a39'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_replace_next_task_fair' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc14b1b1d'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_report_bug' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x430fa998'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_revert_creds' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd592ea3a'/>
@@ -129,23 +127,18 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_show_max_freq' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5cb01856'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_sk_alloc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x88369c82'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_sk_free' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x99ae44e5'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_tcp_recvmsg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x28b3158c'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_tcp_recvmsg_stat' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa433f172'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_tcp_sendmsg_locked' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7efcd501'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_tick_entry' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x74bb05b6'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_tk_based_time_sync' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3b4d4535'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_try_to_wake_up' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x30b87b38'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_try_to_wake_up_success' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7016f012'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_ttwu_cond' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7a23207a'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_uclamp_eff_get' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd953365c'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_udp_recvmsg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x22e20e43'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_udp_sendmsg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x43a616fa'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_ufs_complete_init' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x28a882db'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_ufs_reprogram_all_keys' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3a9d39ea'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_update_blocked_fair' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x58ef79f4'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_cpu_capacity' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe66bf782'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_cpus_allowed' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6eae27b7'/>
-      <elf-symbol name='__SCT__tp_func_android_rvh_update_load_avg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe1370b00'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_misfit_status' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x878ee7e1'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_update_readahead_gfp_mask' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x97704928'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_rt_rq_load_avg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc1e24117'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_thermal_stats' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa820d81a'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_watermark' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc6bb9d32'/>
@@ -204,6 +197,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_cgroup_set_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb40ee8d0'/>
       <elf-symbol name='__SCT__tp_func_android_vh_check_bpf_syscall' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc402c5e8'/>
       <elf-symbol name='__SCT__tp_func_android_vh_check_file_open' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x1f9cda0d'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_check_hibernation_swap' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x261c7382'/>
       <elf-symbol name='__SCT__tp_func_android_vh_check_mmap_file' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4ff4c727'/>
       <elf-symbol name='__SCT__tp_func_android_vh_check_uninterruptible_tasks' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x80b8fd16'/>
       <elf-symbol name='__SCT__tp_func_android_vh_check_uninterruptible_tasks_dn' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x980f1143'/>
@@ -268,6 +262,8 @@
       <elf-symbol name='__SCT__tp_func_android_vh_is_fpsimd_save' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8fe1ea8'/>
       <elf-symbol name='__SCT__tp_func_android_vh_jiffies_update' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa596bed2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_kfree_skb' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8f297d15'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_killed_process' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3b929325'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_kmalloc_slab' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc7008b93'/>
       <elf-symbol name='__SCT__tp_func_android_vh_kswapd_per_node' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xba649ef9'/>
       <elf-symbol name='__SCT__tp_func_android_vh_logbuf' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc144636f'/>
       <elf-symbol name='__SCT__tp_func_android_vh_logbuf_pr_cont' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x99953bfd'/>
@@ -317,7 +313,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_process_killed' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x71acd355'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ptype_head' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7d21403c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_record_mutex_lock_starttime' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc78c54f2'/>
-      <elf-symbol name='__SCT__tp_func_android_vh_record_percpu_rwsem_lock_starttime' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf7980b8f'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_record_pcpu_rwsem_starttime' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5b17f1c3'/>
       <elf-symbol name='__SCT__tp_func_android_vh_record_rtmutex_lock_starttime' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x15bf8b11'/>
       <elf-symbol name='__SCT__tp_func_android_vh_record_rwsem_lock_starttime' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2790144d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_regmap_update' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa267108a'/>
@@ -334,6 +330,9 @@
       <elf-symbol name='__SCT__tp_func_android_vh_rwsem_write_finished' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc7e94bef'/>
       <elf-symbol name='__SCT__tp_func_android_vh_rwsem_write_wait_finish' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7e226c49'/>
       <elf-symbol name='__SCT__tp_func_android_vh_rwsem_write_wait_start' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4a22c949'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_save_cpu_resume' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7a874f12'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_save_hib_resume_bdev' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x11149e26'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_save_track_hash' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf414bdc2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sched_pelt_multiplier' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7086df2d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sched_setaffinity_early' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf685c314'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sched_show_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x343ae364'/>
@@ -386,6 +385,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_mcq_map_tag' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe50b46b'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_mcq_max_tag' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x18adec08'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_mcq_print_trs' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7e375e3c'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_ufs_mcq_retry_complete' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc9e1ffe3'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_mcq_send_command' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd5a89a11'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_mcq_set_sqid' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x43569b2d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_prepare_command' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x82f7b5f8'/>
@@ -483,6 +483,10 @@
       <elf-symbol name='__SCT__tp_func_neigh_timer_handler' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa0c0f1d7'/>
       <elf-symbol name='__SCT__tp_func_neigh_update' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5c0c165e'/>
       <elf-symbol name='__SCT__tp_func_neigh_update_done' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe9fadf16'/>
+      <elf-symbol name='__SCT__tp_func_net_dev_queue' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa45828b0'/>
+      <elf-symbol name='__SCT__tp_func_net_dev_xmit' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xdbf82001'/>
+      <elf-symbol name='__SCT__tp_func_netif_receive_skb' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3add02cb'/>
+      <elf-symbol name='__SCT__tp_func_netif_rx' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x1cd10362'/>
       <elf-symbol name='__SCT__tp_func_non_standard_event' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe1fc8ef'/>
       <elf-symbol name='__SCT__tp_func_pelt_cfs_tp' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc23601c1'/>
       <elf-symbol name='__SCT__tp_func_pelt_dl_tp' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2cfbb2b5'/>
@@ -681,6 +685,33 @@
         <parameter type-id='f0981eeb'/>
         <return type-id='95e97e5e'/>
       </function-decl>
+      <function-decl name='aes_xctr_enc_128_avx_by8' filepath='arch/x86/crypto/aesni-intel_glue.c' line='140' column='1' visibility='default' binding='global' size-in-bits='64'>
+        <parameter type-id='bbaf3419'/>
+        <parameter type-id='bbaf3419'/>
+        <parameter type-id='eaa32e2f'/>
+        <parameter type-id='8bff8096'/>
+        <parameter type-id='f0981eeb'/>
+        <parameter type-id='f0981eeb'/>
+        <return type-id='48b5725f'/>
+      </function-decl>
+      <function-decl name='aes_xctr_enc_192_avx_by8' filepath='arch/x86/crypto/aesni-intel_glue.c' line='144' column='1' visibility='default' binding='global' size-in-bits='64'>
+        <parameter type-id='bbaf3419'/>
+        <parameter type-id='bbaf3419'/>
+        <parameter type-id='eaa32e2f'/>
+        <parameter type-id='8bff8096'/>
+        <parameter type-id='f0981eeb'/>
+        <parameter type-id='f0981eeb'/>
+        <return type-id='48b5725f'/>
+      </function-decl>
+      <function-decl name='aes_xctr_enc_256_avx_by8' filepath='arch/x86/crypto/aesni-intel_glue.c' line='148' column='1' visibility='default' binding='global' size-in-bits='64'>
+        <parameter type-id='bbaf3419'/>
+        <parameter type-id='bbaf3419'/>
+        <parameter type-id='eaa32e2f'/>
+        <parameter type-id='8bff8096'/>
+        <parameter type-id='f0981eeb'/>
+        <parameter type-id='f0981eeb'/>
+        <return type-id='48b5725f'/>
+      </function-decl>
       <function-decl name='aesni_enc' filepath='arch/x86/crypto/aesni-intel_glue.c' line='85' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='8bff8096'/>
@@ -755,7 +786,7 @@
         <parameter type-id='8bff8096'/>
         <return type-id='48b5725f'/>
       </function-decl>
-      <function-decl name='aesni_gcm_init_avx_gen4' filepath='arch/x86/crypto/aesni-intel_glue.c' line='166' column='1' visibility='default' binding='global' size-in-bits='64'>
+      <function-decl name='aesni_gcm_init_avx_gen4' filepath='arch/x86/crypto/aesni-intel_glue.c' line='180' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='c094fa8f'/>
         <parameter type-id='8bff8096'/>
@@ -764,7 +795,7 @@
         <parameter type-id='7359adad'/>
         <return type-id='48b5725f'/>
       </function-decl>
-      <function-decl name='aesni_gcm_init_avx_gen2' filepath='arch/x86/crypto/aesni-intel_glue.c' line='143' column='1' visibility='default' binding='global' size-in-bits='64'>
+      <function-decl name='aesni_gcm_init_avx_gen2' filepath='arch/x86/crypto/aesni-intel_glue.c' line='157' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='c094fa8f'/>
         <parameter type-id='8bff8096'/>
@@ -782,7 +813,7 @@
         <parameter type-id='7359adad'/>
         <return type-id='48b5725f'/>
       </function-decl>
-      <function-decl name='aesni_gcm_enc_update_avx_gen2' filepath='arch/x86/crypto/aesni-intel_glue.c' line='150' column='1' visibility='default' binding='global' size-in-bits='64'>
+      <function-decl name='aesni_gcm_enc_update_avx_gen2' filepath='arch/x86/crypto/aesni-intel_glue.c' line='164' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='c094fa8f'/>
         <parameter type-id='8bff8096'/>
@@ -790,7 +821,7 @@
         <parameter type-id='7359adad'/>
         <return type-id='48b5725f'/>
       </function-decl>
-      <function-decl name='aesni_gcm_enc_update_avx_gen4' filepath='arch/x86/crypto/aesni-intel_glue.c' line='173' column='1' visibility='default' binding='global' size-in-bits='64'>
+      <function-decl name='aesni_gcm_enc_update_avx_gen4' filepath='arch/x86/crypto/aesni-intel_glue.c' line='187' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='c094fa8f'/>
         <parameter type-id='8bff8096'/>
@@ -806,7 +837,7 @@
         <parameter type-id='7359adad'/>
         <return type-id='48b5725f'/>
       </function-decl>
-      <function-decl name='aesni_gcm_dec_update_avx_gen4' filepath='arch/x86/crypto/aesni-intel_glue.c' line='176' column='1' visibility='default' binding='global' size-in-bits='64'>
+      <function-decl name='aesni_gcm_dec_update_avx_gen4' filepath='arch/x86/crypto/aesni-intel_glue.c' line='190' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='c094fa8f'/>
         <parameter type-id='8bff8096'/>
@@ -822,7 +853,7 @@
         <parameter type-id='7359adad'/>
         <return type-id='48b5725f'/>
       </function-decl>
-      <function-decl name='aesni_gcm_dec_update_avx_gen2' filepath='arch/x86/crypto/aesni-intel_glue.c' line='153' column='1' visibility='default' binding='global' size-in-bits='64'>
+      <function-decl name='aesni_gcm_dec_update_avx_gen2' filepath='arch/x86/crypto/aesni-intel_glue.c' line='167' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='c094fa8f'/>
         <parameter type-id='8bff8096'/>
@@ -830,14 +861,14 @@
         <parameter type-id='7359adad'/>
         <return type-id='48b5725f'/>
       </function-decl>
-      <function-decl name='aesni_gcm_finalize_avx_gen2' filepath='arch/x86/crypto/aesni-intel_glue.c' line='157' column='1' visibility='default' binding='global' size-in-bits='64'>
+      <function-decl name='aesni_gcm_finalize_avx_gen2' filepath='arch/x86/crypto/aesni-intel_glue.c' line='171' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='c094fa8f'/>
         <parameter type-id='8bff8096'/>
         <parameter type-id='7359adad'/>
         <return type-id='48b5725f'/>
       </function-decl>
-      <function-decl name='aesni_gcm_finalize_avx_gen4' filepath='arch/x86/crypto/aesni-intel_glue.c' line='180' column='1' visibility='default' binding='global' size-in-bits='64'>
+      <function-decl name='aesni_gcm_finalize_avx_gen4' filepath='arch/x86/crypto/aesni-intel_glue.c' line='194' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='c094fa8f'/>
         <parameter type-id='8bff8096'/>
@@ -1066,6 +1097,31 @@
       <function-decl name='poly1305_init_x86_64' filepath='arch/x86/crypto/poly1305_glue.c' line='18' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='bbaf3419'/>
+        <return type-id='48b5725f'/>
+      </function-decl>
+    </abi-instr>
+    <abi-instr address-size='64' path='arch/x86/crypto/polyval-clmulni_glue.c' language='LANG_C89'>
+      <array-type-def dimensions='2' type-id='f9b06939' size-in-bits='1024' id='183d89c7'>
+        <subrange length='8' type-id='7ff19f0f' id='56e0c0b1'/>
+        <subrange length='16' type-id='7ff19f0f' id='848d0938'/>
+      </array-type-def>
+      <class-decl name='polyval_tfm_ctx' size-in-bits='1024' is-struct='yes' visibility='default' filepath='arch/x86/crypto/polyval-clmulni_glue.c' line='32' column='1' id='afd205da'>
+        <data-member access='public' layout-offset-in-bits='0'>
+          <var-decl name='key_powers' type-id='183d89c7' visibility='default' filepath='arch/x86/crypto/polyval-clmulni_glue.c' line='36' column='1'/>
+        </data-member>
+      </class-decl>
+      <qualified-type-def type-id='afd205da' const='yes' id='2db22461'/>
+      <pointer-type-def type-id='2db22461' size-in-bits='64' id='3a6f2211'/>
+      <function-decl name='clmul_polyval_mul' filepath='arch/x86/crypto/polyval-clmulni_glue.c' line='46' column='1' visibility='default' binding='global' size-in-bits='64'>
+        <parameter type-id='8bff8096'/>
+        <parameter type-id='bbaf3419'/>
+        <return type-id='48b5725f'/>
+      </function-decl>
+      <function-decl name='clmul_polyval_update' filepath='arch/x86/crypto/polyval-clmulni_glue.c' line='44' column='1' visibility='default' binding='global' size-in-bits='64'>
+        <parameter type-id='3a6f2211'/>
+        <parameter type-id='bbaf3419'/>
+        <parameter type-id='b59d7dce'/>
+        <parameter type-id='8bff8096'/>
         <return type-id='48b5725f'/>
       </function-decl>
     </abi-instr>
@@ -7120,66 +7176,66 @@
           <var-decl name='sum_exec_runtime' type-id='0d77e947' visibility='default' filepath='include/linux/sched/types.h' line='20' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='psi_group' size-in-bits='6080' is-struct='yes' visibility='default' filepath='include/linux/psi_types.h' line='145' column='1' id='12878ab3'>
+      <class-decl name='psi_group' size-in-bits='6080' is-struct='yes' visibility='default' filepath='include/linux/psi_types.h' line='150' column='1' id='12878ab3'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='avgs_lock' type-id='925167dc' visibility='default' filepath='include/linux/psi_types.h' line='147' column='1'/>
+          <var-decl name='avgs_lock' type-id='925167dc' visibility='default' filepath='include/linux/psi_types.h' line='152' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='pcpu' type-id='9dc40234' visibility='default' filepath='include/linux/psi_types.h' line='150' column='1'/>
+          <var-decl name='pcpu' type-id='9dc40234' visibility='default' filepath='include/linux/psi_types.h' line='155' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='448'>
-          <var-decl name='avg_total' type-id='64acd4ce' visibility='default' filepath='include/linux/psi_types.h' line='153' column='1'/>
+          <var-decl name='avg_total' type-id='64acd4ce' visibility='default' filepath='include/linux/psi_types.h' line='158' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='832'>
-          <var-decl name='avg_last_update' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='154' column='1'/>
+          <var-decl name='avg_last_update' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='159' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='896'>
-          <var-decl name='avg_next_update' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='155' column='1'/>
+          <var-decl name='avg_next_update' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='160' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='960'>
-          <var-decl name='avgs_work' type-id='5ad6e0ef' visibility='default' filepath='include/linux/psi_types.h' line='158' column='1'/>
+          <var-decl name='avgs_work' type-id='5ad6e0ef' visibility='default' filepath='include/linux/psi_types.h' line='163' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2048'>
-          <var-decl name='total' type-id='a42717ee' visibility='default' filepath='include/linux/psi_types.h' line='161' column='1'/>
+          <var-decl name='total' type-id='a42717ee' visibility='default' filepath='include/linux/psi_types.h' line='166' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2816'>
-          <var-decl name='avg' type-id='a66a9b84' visibility='default' filepath='include/linux/psi_types.h' line='162' column='1'/>
+          <var-decl name='avg' type-id='a66a9b84' visibility='default' filepath='include/linux/psi_types.h' line='167' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3968'>
-          <var-decl name='poll_task' type-id='f23e2572' visibility='default' filepath='include/linux/psi_types.h' line='165' column='1'/>
+          <var-decl name='poll_task' type-id='f23e2572' visibility='default' filepath='include/linux/psi_types.h' line='170' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4032'>
-          <var-decl name='poll_timer' type-id='abe41e67' visibility='default' filepath='include/linux/psi_types.h' line='166' column='1'/>
+          <var-decl name='poll_timer' type-id='abe41e67' visibility='default' filepath='include/linux/psi_types.h' line='171' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4480'>
-          <var-decl name='poll_wait' type-id='b5ab048f' visibility='default' filepath='include/linux/psi_types.h' line='167' column='1'/>
+          <var-decl name='poll_wait' type-id='b5ab048f' visibility='default' filepath='include/linux/psi_types.h' line='172' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4672'>
-          <var-decl name='poll_wakeup' type-id='49178f86' visibility='default' filepath='include/linux/psi_types.h' line='168' column='1'/>
+          <var-decl name='poll_wakeup' type-id='49178f86' visibility='default' filepath='include/linux/psi_types.h' line='173' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4736'>
-          <var-decl name='trigger_lock' type-id='925167dc' visibility='default' filepath='include/linux/psi_types.h' line='171' column='1'/>
+          <var-decl name='trigger_lock' type-id='925167dc' visibility='default' filepath='include/linux/psi_types.h' line='176' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5120'>
-          <var-decl name='triggers' type-id='72f469ec' visibility='default' filepath='include/linux/psi_types.h' line='174' column='1'/>
+          <var-decl name='triggers' type-id='72f469ec' visibility='default' filepath='include/linux/psi_types.h' line='179' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5248'>
-          <var-decl name='nr_triggers' type-id='5867ed7f' visibility='default' filepath='include/linux/psi_types.h' line='175' column='1'/>
+          <var-decl name='nr_triggers' type-id='5867ed7f' visibility='default' filepath='include/linux/psi_types.h' line='180' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5440'>
-          <var-decl name='poll_states' type-id='19c2251e' visibility='default' filepath='include/linux/psi_types.h' line='176' column='1'/>
+          <var-decl name='poll_states' type-id='19c2251e' visibility='default' filepath='include/linux/psi_types.h' line='181' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5504'>
-          <var-decl name='poll_min_period' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='177' column='1'/>
+          <var-decl name='poll_min_period' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='182' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5568'>
-          <var-decl name='polling_total' type-id='64acd4ce' visibility='default' filepath='include/linux/psi_types.h' line='180' column='1'/>
+          <var-decl name='polling_total' type-id='64acd4ce' visibility='default' filepath='include/linux/psi_types.h' line='185' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5952'>
-          <var-decl name='polling_next_update' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='181' column='1'/>
+          <var-decl name='polling_next_update' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='186' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6016'>
-          <var-decl name='polling_until' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='182' column='1'/>
+          <var-decl name='polling_until' type-id='91ce1af9' visibility='default' filepath='include/linux/psi_types.h' line='187' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='psi_group_cpu' size-in-bits='1024' is-struct='yes' visibility='default' filepath='include/linux/psi_types.h' line='76' column='1' id='956e764e'>
