@@ -1,0 +1,4 @@
+kernel/mm/zsmalloc.ko:
+kernel/drivers/block/zram/zram.ko: kernel/mm/zsmalloc.ko
+kernel/net/wireless/cfg80211.ko:
+kernel/net/mac80211/mac80211.ko: kernel/net/wireless/cfg80211.ko

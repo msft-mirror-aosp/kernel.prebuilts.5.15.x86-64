@@ -127,6 +127,8 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_uclamp_eff_get' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd953365c'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_udp_recvmsg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x22e20e43'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_udp_sendmsg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x43a616fa'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_ufs_complete_init' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x28a882db'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_ufs_reprogram_all_keys' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3a9d39ea'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_blocked_fair' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x58ef79f4'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_cpu_capacity' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe66bf782'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_cpus_allowed' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6eae27b7'/>
@@ -464,6 +466,7 @@
       <elf-symbol name='preempt_schedule_thunk' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd6742002'/>
       <elf-symbol name='rdmsr_safe_regs' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4cd5bc5e'/>
       <elf-symbol name='wrmsr_safe_regs' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa836ba02'/>
+      <elf-symbol name='zen_untrain_ret' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6b695cf1'/>
     </elf-function-symbols>
     <elf-variable-symbols>
       <elf-symbol name='empty_zero_page' size='4096' type='object-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x815f2897'/>
