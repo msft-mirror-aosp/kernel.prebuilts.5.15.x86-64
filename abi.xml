@@ -164,8 +164,6 @@
       <elf-symbol name='__SCT__tp_func_android_vh_blk_rq_ctx_init' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xdb1ac6f6'/>
       <elf-symbol name='__SCT__tp_func_android_vh_build_sched_domains' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x882e7f03'/>
       <elf-symbol name='__SCT__tp_func_android_vh_cache_show' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7f703f45'/>
-      <elf-symbol name='__SCT__tp_func_android_vh_cfg80211_get_context' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x55e299b7'/>
-      <elf-symbol name='__SCT__tp_func_android_vh_cfg80211_set_context' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc7a8b77d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_cgroup_attach' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbb553b'/>
       <elf-symbol name='__SCT__tp_func_android_vh_cgroup_set_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb40ee8d0'/>
       <elf-symbol name='__SCT__tp_func_android_vh_check_bpf_syscall' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc402c5e8'/>
