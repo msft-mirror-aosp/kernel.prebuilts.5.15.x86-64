@@ -204,6 +204,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_cpuidle_psci_exit' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3e446e3a'/>
       <elf-symbol name='__SCT__tp_func_android_vh_disable_thermal_cooling_stats' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4d62ccbb'/>
       <elf-symbol name='__SCT__tp_func_android_vh_dma_buf_release' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa253ed1f'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_dmabuf_heap_flags_validation' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd66f8d18'/>
       <elf-symbol name='__SCT__tp_func_android_vh_do_futex' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x935e85c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_do_madvise_blk_plug' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x98f99c5f'/>
       <elf-symbol name='__SCT__tp_func_android_vh_do_send_sig_info' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa9566dc2'/>
